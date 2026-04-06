@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redes</title>
+
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+<style>
+body { animation: fadeIn 1.5s; }
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.seccion {
+  margin-top: 50px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.titulo {
+  color: #00d9ff;
+  text-shadow: 0 0 10px #00d9ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-red {
+  width: 80px;
+  margin: 10px auto;
+  display: block;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 0 20px #00d9ff;
+}
+
+.card p {
+  font-size: 14px;
+  text-align: center;
+}
+</style>
+
+</head>
+
+<body class="p-3">
+
+<header>
+<h2>REDES</h2>
+<h5>Comunicación entre Computadores</h5>
+</header>
+
+<hr>
+
+<main>
+
+<!-- INTRO -->
+<section class="seccion text-center">
+<h3 class="titulo">Introducción</h3>
+<img src="../img/img.1.png" alt="foto">
+<p>
+Una red informática permite conectar dispositivos para compartir información, recursos e internet de forma rápida y eficiente.
+</p>
+</section>
+
+<hr>
+
+<!-- OSI -->
+<section class="seccion">
+<h3 class="titulo">Modelo OSI</h3>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.2.jpg" alt="foto">
+<h6>Física</h6>
+<p>Transmite señales eléctricas o digitales a través del medio físico.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.3.png" alt="foto">
+<h6>Enlace</h6>
+<p>Controla errores y asegura la correcta transmisión de datos.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.4.jpg" alt="foto">">
+<h6>Red</h6>
+<p>Se encarga del direccionamiento y envío de paquetes.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.5.jpg" alt="foto">
+<h6>Transporte</h6>
+<p>Garantiza que los datos lleguen completos y ordenados.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.6.jpg" alt="foto">
+<h6>Sesión</h6>
+<p>Establece y mantiene la conexión entre dispositivos.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.7.png" alt="foto">
+<h6>Aplicación</h6>
+<p>Permite la interacción directa con el usuario final.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<!-- TCP/IP -->
+<section class="seccion">
+<h3 class="titulo">Modelo TCP/IP</h3>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.8.jpg" alt="foto">
+<h6>Acceso</h6>
+<p>Controla el acceso al medio físico de la red.</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.9.jpg" alt="foto">
+<h6>Internet</h6>
+<p>Permite el direccionamiento y enrutamiento de datos.</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.10.jpg" alt="foto">
+<h6>Transporte</h6>
+<p>Gestiona el envío seguro de datos.</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.11.jpg" alt="foto">
+<h6>Aplicación</h6>
+<p>Brinda servicios como web, correo y archivos.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<!-- PROTOCOLOS -->
+<section class="seccion">
+<h3 class="titulo">Protocolos</h3>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.12.jpg" alt="foto">
+<h6>HTTP</h6>
+<p>Permite la visualización de páginas web en navegadores.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.13.jpg" alt="foto">
+<h6>HTTPS</h6>
+<p>Protege la información mediante cifrado seguro.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.14.webp" alt="foto">
+<h6>FTP</h6>
+<p>Facilita la transferencia de archivos entre sistemas.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.15.png" alt="foto">
+<h6>DNS</h6>
+<p>Convierte nombres web en direcciones IP.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.16.webp" alt="foto">
+<h6>TCP/IP</h6>
+<p>Permite la comunicación entre dispositivos en internet.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<!-- TOPOLOGIAS -->
+<section class="seccion">
+<h3 class="titulo">Topologías</h3>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.17.gif" alt="foto">
+<h6>Estrella</h6>
+<p>Todos los dispositivos se conectan a un punto central.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.18.jpeg" alt="foto">
+<h6>Bus</h6>
+<p>Todos comparten un mismo canal de comunicación.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.19.webp" alt="foto">
+<h6>Anillo</h6>
+<p>Los datos circulan en forma circular entre nodos.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<!-- SOFTWARE -->
+<section class="seccion">
+<h3 class="titulo">Software de Red</h3>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.20.png" alt="foto">
+<h6>Packet Tracer</h6>
+<p>Simulador de redes para aprendizaje.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.21.webp" alt="foto">
+<h6>GNS3</h6>
+<p>Simula redes reales avanzadas.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.22.png" alt="foto">
+<h6>Wireshark</h6>
+<p>Analiza el tráfico de red en tiempo real.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<!-- DISPOSITIVOS -->
+<section class="seccion">
+<h3 class="titulo">Dispositivos</h3>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.23.jpg" alt="foto">
+<h6>Router</h6>
+<p>Conecta diferentes redes entre sí.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.24.jpg" alt="foto">
+<h6>Switch</h6>
+<p>Conecta múltiples dispositivos en una red local.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-3 card-hover text-center">
+<img src="../img/img.25.jpg" alt="foto">
+<h6>Modem</h6>
+<p>Permite la conexión a internet.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<!-- CABLEADO -->
+<section class="seccion text-center">
+
+<h3 class="titulo">Cableado UTP, FTP, STP, SFTP</h3>
+
+<img src="../img/img.26.jpg" 
+     style="width:100%; max-width:700px; margin:20px auto; display:block; border-radius:15px;" 
+     alt="Cableado">
+
+<p>
+El cableado de par trenzado se utiliza para la transmisión de datos en redes. 
+Se clasifica según su nivel de protección contra interferencias electromagnéticas (EMI).
+</p>
+
+<hr>
+
+<!-- UTP -->
+<h5 class="mt-4">🔹 UTP </h5>
+<ul class="text-start">
+  <li><b>Definición:</b> Cable sin blindaje adicional.</li>
+  <li><b>Características:</b> Flexible, económico y fácil de instalar.</li>
+  <li><b>Uso:</b> Hogares y oficinas pequeñas.</li>
+</ul>
+
+<hr>
+
+<!-- FTP -->
+<h5 class="mt-4">🔹 FTP </h5>
+<ul class="text-start">
+  <li><b>Definición:</b> Cable con lámina protectora global.</li>
+  <li><b>Características:</b> Mayor protección contra interferencias.</li>
+  <li><b>Uso:</b> Oficinas y entornos con ruido moderado.</li>
+</ul>
+
+<hr>
+
+<!-- STP -->
+<h5 class="mt-4">🔹 STP </h5>
+<ul class="text-start">
+  <li><b>Definición:</b> Cada par tiene su propio blindaje.</li>
+  <li><b>Características:</b> Reduce interferencias internas.</li>
+  <li><b>Uso:</b> Industrias o lugares con alta interferencia.</li>
+</ul>
+
+<hr>
+
+<!-- SFTP -->
+<h5 class="mt-4">🔹 SFTP </h5>
+<ul class="text-start">
+  <li><b>Definición:</b> Doble blindaje (general + individual).</li>
+  <li><b>Características:</b> Máxima protección contra interferencias.</li>
+  <li><b>Uso:</b> Centros de datos, hospitales y alta tecnología.</li>
+</ul>
+
+</section>
+
+</main>
+
+<script>
+const sec = document.querySelectorAll(".seccion");
+window.addEventListener("scroll", () => {
+  sec.forEach(s => {
+    let pos = s.getBoundingClientRect().top;
+    let alt = window.innerHeight;
+    if (pos < alt - 100) s.classList.add("visible");
+  });
+});
+</script>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+
+</body>
+</html>
